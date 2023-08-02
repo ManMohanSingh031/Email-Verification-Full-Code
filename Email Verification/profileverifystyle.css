@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-image: url(bg.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+.otp-card {
+text-align: center;
+background-color: white;
+border-radius: 20px;
+padding: 3rem;
+box-shadow: 0 10px 40px -20px black;
+margin-left: 35%;
+margin-right: 30%;
+margin-top: 100px;
+}
+
+.otp-card button{
+    background-color: blueviolet;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 15px 50px;
+    color:white;
+    border: none;
+    font-size: 18px;
+}
+
+.otp-card button:hover{
+    opacity: 0.9;
+}
